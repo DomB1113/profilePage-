@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="nav">
+        <h1 class="nav-title">Profile</h1>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#" id="active">My Profile</a></li>
+            <li><a href="#">Find Connections</a></li>
+            <li><button id="btn">Sign Out</button></li>
+        </ul>
+    </div>
+    <!-- user container -->
+    <div id="ucontainer">
+        <div class="topbar"></div>
+        <div class="marginleft">
+            <div>
+                <img src="jane-m.jpg" class="jane" alt="cirlce profile">
+            </div>
+            <div>
+                <p class="jname">Jane Doe</p>
+            </div>
+            <div>
+                <img src="map-marker.png" class="mapmarker" alt="mapmark">
+                <p class="seattle">Seattle</p>
+            </div>
+            <div class="description">
+                <p>Developer| Engineer | Problem solver</p>
+                <p>Master of shadows and the Internet!</p>
+            </div>
+            <div>
+                <img src="gear.png" class="gear" alt="geaar">
+                <a class="editjane" onclick="changename()" href="#">edit profile</a>
+            </div>
+        </div>
+    </div> 
+    <!-- connection-container -->
+    <div id="connection-container">
+        <div class="cctopbar">
+            <p class="twoconreq">2</p>
+            <p class="conreq">Connections Requests</p>
+        </div>
+        <div class="todde">
+            <img src="todd-s.jpg" alt="todd">
+            <p>Todd E</p>
+            <img src="accept-circle.png" onclick="add(0)" class="acceptct" alt="accept">
+            <img src="close-circle.png" onclick="reject(0)" class="closect" alt="close-circle">
+        </div>
+        <div class="philk">
+            <img src="phil-s.jpg" alt="phil-s">
+            <p>Phil K</p>
+            <img src="accept-circle.png" onclick="add(1)" class="acceptpk" alt="accept-circle">
+            <img src="close-circle.png" onclick="reject(1)" class="closepk" alt="close-circle">
+        </div>
+    </div>
+    <!-- yourconnections -->
+    <div id="yccontainer">
+        <div class="yctopbar">
+            <p class="fivehunplus">500+</p>
+            <p class="yctopbaryc"> Your Connections</p>
+        </div>
+        <div class="ycmain">
+            <div class="adriend">
+            <img src="adrien-s.jpg" alt="adrien">
+            <p>Adrien D</p>
+            </div>
+            <div class="annej">
+                <img src="anne-s.jpg" alt="anne">
+                <p>Anne J</p>
+            </div>
+            <div class="alaynt">
+                <img src="alayne-s.jpg" alt="alaynet">
+                <p>Alayne T</p>
+            </div>
+            <div class="arryy">
+                <img src="arry-s.jpg" alt="arry">
+                <p>Arry Y</p>
+            </div>
+        </div>
+    </div>
+    <div>
+        <a href="#" class="viewmore">View More</a>
+    </div>
+    <div id="educationcontainer">
+        <div class="ectopbar">
+            <p>Education</p>
+        </div>
+        <div class="ecmain">
+            <h2>Coding Dojo - Full Stack Bootcamp</h2>
+            <p class="ecdate">Dec 2019 - Mar 2020</p>
+            <p>Tripple black belt in Python, MERN, and C#...</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,297 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    display: flex;
+    background-color:#333333;
+    width: auto;
+    height: 80px;
+    /* justify-content: flex-end; */
+    align-items: center; 
+    color: white;
+}
+.nav-title{
+    margin: 8px;
+    margin-left: 300px;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    list-style-type: none; 
+    margin-left: 30px;
+    margin-top: 5px;
+    /* list-style-type: removed bullet points; */
+}
+
+li{
+    margin-right: 22px;
+}
+#btn{
+    background-color: #17a2b8;
+    color: white;
+    box-shadow: 3px 3px black;
+    border: 3px solid black;
+    justify-content: flex-end;
+    position: absolute;
+    margin-left: 560px;
+    top: 25px;
+    height: 35px;
+    width: 130px;
+}
+
+.nav a{
+    color: rgb(214, 208, 208);
+    text-decoration: none;
+    /* text-decoration: none;got rid of underline */
+}
+#active{
+    color: white;
+}
+/* userprofile */
+
+#ucontainer {
+    border: 3px solid grey;
+    width: 700px;
+    height: 350px;
+    margin: 50px 300px;
+}
+.topbar{
+    background-color: #17a2b8;
+    height: 110px;
+}
+
+.jane{
+    height: 80px;
+    position: absolute;
+    top: 200px;
+}
+.marginleft{
+    margin-left: 30px;
+}
+.jname{
+    margin-top: 50px;
+    font-size: 35px;
+    font-weight: 500;
+}
+.mapmarker{
+    height: 20px;
+}
+.seattle{
+    display: inline;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.description{
+    margin-top: 15px;
+}
+.gear{
+    height: 20px;
+    margin-top: 25px;
+    margin-left: 4px;
+    position:absolute
+}
+.editjane {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+/* connection request */
+
+#connection-container{
+    border: 3px solid grey;
+    width: 300px;
+    height: 220px;
+    position: absolute;
+    margin-left: 1100px;
+    top: 130px;
+}
+.cctopbar{
+    background-color: #333333;
+    height:60px;
+    display: flex;
+    align-items: center;
+}
+
+
+.twoconreq{
+    margin-left: 20px;   
+    margin-right: 20px;
+    font-size: 25px;
+    color: black;
+    background-color: #cccccc;
+    height: 30px;
+    width: 30px;
+    border-radius: 300%;
+    text-align: center;
+}
+.conreq{
+    color: white;
+    font-size: 23px;
+}
+.todde{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.todde img{
+    height: 60px;
+}
+.todde .acceptct{
+    height: 38px;
+    margin-left: 30px;
+    margin-top: 8px;
+}
+.todde .closect{
+    height: 38px;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.todde p{
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+.philk{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.philk img{
+    height: 60px;
+}
+.philk .acceptpk{
+    height: 38px;
+    margin-left: 38px;
+    margin-top: 8px;
+}
+.philk .closepk{
+    height: 38px;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.philk p{
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+/* yourconnections */
+#yccontainer{
+    border: 3px solid grey;
+    width: 300px;
+    height: 360px;
+    position: absolute;
+    margin-left: 1100px;
+    top: 400px;
+}
+.yctopbar{
+    background-color: #333333;
+    height:60px;
+    display: flex;
+    align-items: center;
+}
+.fivehunplus{
+    margin-left: 20px;   
+    margin-right: 20px;
+    font-size: 25px;
+    color: black;
+    background-color: #cccccc;
+    height: 30px;
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+.yctopbaryc{
+    color: white;
+    font-size: 23px;
+}
+.ycmain{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.adriend{
+    display: flex;
+    height: 60px;
+    margin-bottom: 10px;
+} 
+.adriend p{
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+.annej{
+    display: flex;
+    height: 60px;
+    margin-bottom: 10px;
+}
+.annej p{
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+.alaynt{
+    display: flex;
+    height: 60px;
+    margin-bottom: 10px;
+}
+.alaynt p{
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+.arryy{
+    display: flex;
+    height: 60px;
+    margin-bottom: 10px;
+}
+.arryy p{
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+.viewmore{
+    border: 3px solid grey;
+    position: absolute;
+    margin-left: 1100px;
+    top: 762px;
+    width: 280px;
+    text-align: start;
+    height: 44px;
+    padding-left: 20px;
+    font-size: 25px;
+    padding-top: 15px;
+}
+/* education container */
+#educationcontainer{
+    border: 3px solid grey;
+    width: 700px;
+    height: 350px;
+    margin: 50px 300px;
+}
+.ectopbar{
+    background-color: #333333;
+    height:60px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+}
+.ectopbar p {
+    padding-left: 30px;
+}
+.ecmain h2{
+    font-size: 40px;
+    padding-left: 30px;
+}
+.ecmain .ecdate{
+    color: #949494;
+    margin-left: 31px;
+    font-size: 25px;
+}
+.ecmain p{
+    margin-left: 30px;
+    font-size: 30px;
+}
